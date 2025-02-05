@@ -1,6 +1,6 @@
-Corpus Analysis - Superheroes vs. Horror
+# Corpus Analysis - Superheroes vs. Horror
 
-Overview
+## Overview
 
 This project analyzes text documents from two categories: Superheroes (Avengers) and Horror (Drag Me to Hell). The analysis includes:
 
@@ -14,7 +14,7 @@ Latent Dirichlet Allocation (LDA) Topic Modeling
 
 Topic Distribution Analysis
 
-Directory Structure
+##Directory Structure
 
 project_directory/
 │── output/
@@ -24,9 +24,9 @@ project_directory/
 │── README.txt              # This file
 │── requirements.txt        # List of required Python libraries
 
-Setup Instructions
+##Setup Instructions
 
-1. Install Dependencies
+##1. Install Dependencies
 
 Ensure you have Python 3 installed. Install required dependencies using:
 
@@ -50,7 +50,7 @@ import nltk
 nltk.download('stopwords')
 nltk.download('wordnet')
 
-2. Run the Analysis
+##2. Run the Analysis
 
 Execute the main script:
 
@@ -68,7 +68,7 @@ Perform LDA topic modeling, assigning unique labels to each topic.
 
 Compute the top 3-5 topics per category based on document distributions.
 
-3. Expected Output
+##3. Expected Output
 
 The script will print:
 
@@ -91,18 +91,18 @@ Top 10 words for Superheroes:
 ...
 ==================================================
 
-Top Topics for Superheroes:
+##Top Topics for Superheroes:
 1. Technology & Weapons (Avg Probability: 0.42)
 2. Combat & Military (Avg Probability: 0.19)
 ...
 
-4. Modifying the Code
+##4. Modifying the Code
 
 To adjust stopword handling, modify preprocess_text().
 
 To change LDA topic names, edit TOPIC_NAMES_AVENGERS and TOPIC_NAMES_HORROR in main.py.
 
-Notes
+##Notes
 
 The script automatically removes character names (e.g., "tony", "steve", "ganush") from the analysis.
 
