@@ -32,19 +32,10 @@ project_directory/
 
 Ensure you have Python 3 installed. Install required dependencies using:
 ```
-pip install -r requirements.txt
+conda create --name my_env python=3.9
+conda activate my_env
+conda install -c conda-forge nltk numpy pandas gensim scikit-learn
 
-This will install:
-
-nltk
-
-numpy
-
-pandas
-
-gensim
-
-sklearn
 ```
 Additionally, download necessary NLTK resources:
 ```
