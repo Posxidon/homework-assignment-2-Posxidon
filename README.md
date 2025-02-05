@@ -31,7 +31,7 @@ project_directory/
 ## 1. Install Dependencies
 
 Ensure you have Python 3 installed. Install required dependencies using:
-
+```
 pip install -r requirements.txt
 
 This will install:
@@ -45,18 +45,18 @@ pandas
 gensim
 
 sklearn
-
+```
 Additionally, download necessary NLTK resources:
-
+```
 import nltk
 nltk.download('stopwords')
 nltk.download('wordnet')
-
+```
 ## 2. Run the Analysis
 
 Execute the main script:
 
-python main.py
+homework2_nl3.ipynb
 
 This will:
 
