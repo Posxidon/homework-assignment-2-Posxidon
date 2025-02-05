@@ -74,7 +74,7 @@ Average Topic Distribution per Category
 Top 3-5 Most Representative Topics for Each Category
 
 Example output:
-
+```
 Top 10 words for Superheroes:
   Word      Log-Likelihood Ratio
   agent               4.823533
@@ -82,6 +82,7 @@ Top 10 words for Superheroes:
   iron                2.818515
   captain             4.317113
 ...
+```
 ==================================================
 
 ## Top Topics for Superheroes:
